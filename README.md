@@ -9,7 +9,7 @@ Facade Pattern adalah design pattern struktural yang menyediakan interface seder
 ## Struktur
 
 1. **Interface `MobileShop`**: Interface abstrak dengan metode `modelNo()` dan `price()`
-2. **Kelas Konkret**: 
+2. **Kelas Konkret**:
    - `Asus`: Implementasi untuk brand Asus
    - `Xiaomi`: Implementasi untuk brand Xiaomi
    - `Samsung`: Implementasi untuk brand Samsung
@@ -21,12 +21,12 @@ Facade Pattern adalah design pattern struktural yang menyediakan interface seder
 ## Cara Menjalankan
 
 ```bash
-python3 facade_pattern.py
+python3 FacadePatternClient.py
 ```
 
 ## Output
 
-```
+```md
 ==================================================
 SELAMAT DATANG DI MOBILE SHOP
 ==================================================
